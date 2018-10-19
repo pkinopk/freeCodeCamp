@@ -12,6 +12,8 @@ Find more details <a href='https://www.w3schools.com/css/css_image_transparency.
 You can choose up to what extent you want to make the element transparent.
 You have to add the following CSS property to achieve the transparency levels.
 
+**- Opacity Property**
+
 **Fully Opaque**
 ```css
 .class-name {
@@ -43,12 +45,16 @@ OR
   opacity:0.0;
 }
 ```
+
+
+**- Background-color Property**
+
 Alternatively you can use a transparent rgba value like this:
 ```css
 
-.class-name{
+.class-name {
   background-color: rgba(0,0,0,.5);
-  }
+}
  ```
 The example above sets the background to be black with 50% opacity. The last value of an rgba value is the alpha value. An alpha value of 1 equals 100%, and 0.5 (.5 for short) quals 50%. We use this method to add transparency to an element without affecting the content inside.
 
